@@ -10,7 +10,7 @@ class DynAddObject(QDialog):
     def __init__(self, parent=None):
         super(DynAddObject, self).__init__(parent)
         self.widgetList = []
-        addButton = QPushButton(u"添加控件")
+        addButton = QPushButton(u"a添加控件")
         delBUtton = QPushButton(u"删除控件")
         self.layout = QGridLayout()
         self.layout.addWidget(addButton, 1, 0)
